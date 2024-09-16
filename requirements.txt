@@ -1,0 +1,4 @@
+python-telegram-bot==21.5
+rich==13.8.1
+pyfiglet==1.0.2
+PyYAML==6.0.2

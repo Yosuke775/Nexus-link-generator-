@@ -1,0 +1,6 @@
+# your bot token. get it form botfather.
+token: 
+
+# type: bool  | set it to False if you want to handle pending updates aka 
+# updates that were received when your bot was offline.
+drop_pending_updates: True
