@@ -39,7 +39,7 @@ class StringsManager:
     
     def load_yaml(self):
         try:
-            with open(self.file_path, 'r') as file:
+            with open(self.file_path, 'r', encoding='utf-8') as file:
                 return yaml.safe_load(file)
         except FileNotFoundError:
             LOGGER.error(f"Config file not found at {self.file_path}")
@@ -75,5 +75,8 @@ class StringsManager:
             return None
 
 sm = StringsManager(Path("linkGenerator/strings/strings.yaml"))
+file_path_botdata = Path("linkGenerator/botdata")
 PendingUpdatesStatus = config("drop_pending_updates")
+token = config("token")
+
 
