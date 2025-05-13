@@ -1,5 +1,5 @@
 # your bot token. get it form botfather.
-token: 
+token: "7982292002:AAGobBjABAW9Drj1KHxZPpBytLYyO34jEAo
 
 # type: bool  | set it to False if you want to handle pending updates aka 
 # updates that were received when your bot was offline.
